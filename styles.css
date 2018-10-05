@@ -1,18 +1,37 @@
-.pageHeader {
+body {
+  background: #F0DFA7;
+}
+
+.head {
   display: flex;
   justify-content: center;
+}
+
+.pageHeader {
   margin: 20px;
+  width: 300px;
+  text-align: center;
+  background: #C2B099;
+  padding: 25px;
+  font-size: 24px;
+  color: #472B1D;
+  border: 5px inset  #A86355;
+
 }
 
 .list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: #A86355;
+  text-align: center;
 }
 
 .shop {
-  border: 1px solid green;
-  height: 20px;
+  border: 5px double #90A5A7;
+  padding: 5px;
   flex-basis: 30%;
-  margin: 0 10px;
+  margin: 10px 10px;
+  background-color: #C2B099;
+  color: #472B1D;
 }
